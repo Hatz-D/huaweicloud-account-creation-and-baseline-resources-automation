@@ -2,8 +2,8 @@ resource "huaweicloud_tms_tags" "baseline_tags" {
   provider = huaweicloud.child
 
   tags {
-    key   = "foo2"
-    value = "bar2"
+    key   = "foo"
+    value = "bar"
   }
 }
 
