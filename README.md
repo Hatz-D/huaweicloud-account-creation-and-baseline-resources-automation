@@ -16,7 +16,7 @@ Upon configuring the authentication to the root account of the organization, it 
 
 Finally, in order to run the Terraform script per-se, simply type:
 
-```shell
+```terraform
 terraform init
 terraform apply -auto-approve -input=false -var=email_address={$YOUR_EMAIL_ADDRESS} -var=domain_name={$YOUR_DOMAIN_NAME}
 ```
@@ -24,5 +24,6 @@ terraform apply -auto-approve -input=false -var=email_address={$YOUR_EMAIL_ADDRE
 - $YOUR_DOMAIN_NAME: Name of the account to be created under the organization.
 
 - $YOUR_EMAIL_ADDRESS: E-mail address bound to the account to be created.
+
 
 
